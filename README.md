@@ -23,8 +23,8 @@ Before running this application, you'll need:
 
 1. Clone this repository:
 ```bash
-git clone <your-repository-url>
-cd <repository-name>
+git clone https://github.com/egmndrk/Search-Enhanced-QA-System.git
+cd Search-Enhanced-QA-System
 ```
 
 2. Install the required dependencies:
@@ -91,27 +91,12 @@ Replace these placeholders with relevant examples for your use case, such as:
 - Demonstration queries showing the system's capabilities
 - Sample queries that highlight specific features
 
-## Dependencies
-
-- `gradio`: For the web interface
-- `serpapi`: For Google Search integration
-- `requests`: For API calls
-- `json`: For JSON processing
-
 ## Error Handling
 
 The application includes error handling for:
 - API request failures
 - Invalid API responses
 - General exceptions during execution
-
-## Contributing
-
-Feel free to submit issues and enhancement requests!
-
-## License
-
-[Add your chosen license here]
 
 ## Security Notes
 
