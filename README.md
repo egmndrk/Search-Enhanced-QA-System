@@ -81,27 +81,12 @@ The application comes with pre-configured example queries:
 - "Which company does Berke Cem Oktem work for?"
 - "Which company does Irem Besiroglu intern for?"
 
-## Dependencies
-
-- `gradio`: For the web interface
-- `serpapi`: For Google Search integration
-- `requests`: For API calls
-- `json`: For JSON processing
-
 ## Error Handling
 
 The application includes error handling for:
 - API request failures
 - Invalid API responses
 - General exceptions during execution
-
-## Contributing
-
-Feel free to submit issues and enhancement requests!
-
-## License
-
-[Add your chosen license here]
 
 ## Security Notes
 
