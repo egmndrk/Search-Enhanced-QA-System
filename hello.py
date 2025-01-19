@@ -148,9 +148,9 @@ iface = gr.Interface(
     title="Search-Enhanced Question Answering with Gemini 1.5 Flash",
     description="Ask any question and get an AI-generated response based on current web search results.",
     examples=[
-        ["Where does Egemen Doruk Serdar study at?"],
-        ["Which company does Berke Cem Oktem work for?"],
-        ["Which company does Irem Besiroglu intern for?"]
+        ["your_example_1"],
+        ["your_example_2"],
+        ["your_example_3"]
     ]
 )
 
