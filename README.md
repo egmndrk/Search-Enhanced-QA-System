@@ -76,10 +76,27 @@ The system includes several processing steps:
 
 ## Example Queries
 
-The application comes with pre-configured example queries:
-- "Where does Egemen Doruk Serdar study at?"
-- "Which company does Berke Cem Oktem work for?"
-- "Which company does Irem Besiroglu intern for?"
+The application comes with pre-configured example queries that you can customize by modifying the `examples` parameter in the Gradio interface:
+
+```python
+examples=[
+    ["your_example_1"],
+    ["your_example_2"],
+    ["your_example_3"]
+]
+```
+
+Replace these placeholders with relevant examples for your use case, such as:
+- Common questions in your domain
+- Demonstration queries showing the system's capabilities
+- Sample queries that highlight specific features
+
+## Dependencies
+
+- `gradio`: For the web interface
+- `serpapi`: For Google Search integration
+- `requests`: For API calls
+- `json`: For JSON processing
 
 ## Error Handling
 
@@ -87,6 +104,14 @@ The application includes error handling for:
 - API request failures
 - Invalid API responses
 - General exceptions during execution
+
+## Contributing
+
+Feel free to submit issues and enhancement requests!
+
+## License
+
+[Add your chosen license here]
 
 ## Security Notes
 
