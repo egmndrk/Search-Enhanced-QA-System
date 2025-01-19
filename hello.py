@@ -5,8 +5,8 @@ import requests
 import json
 
 # Configure your API keys
-SERPAPI_API_KEY = "d3f3bf77167951c1aec4a56a46590a7ff760653a09662a547bd59a073f96523a"
-GEMINI_API_KEY = "AIzaSyDX10JHWr3HSGtE5r_pMky73bl7NQ_xGnU"
+SERPAPI_API_KEY = "your_serpapi_key"
+GEMINI_API_KEY = "your_gemini_api_key"
 
 def web_search(query):
     """Perform web search using SerpAPI"""
